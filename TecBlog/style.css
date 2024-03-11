@@ -1,0 +1,180 @@
+/* Limpar formatações padrões */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #e6e6e6;
+}
+
+/* 
+****** Cabeça ******
+*/
+
+#cabeca {
+  background-color: #f7b600;
+  text-align: center;
+  padding: 15px;
+}
+/* 
+****** LOGO ******
+*/
+
+#logo h1 {
+  font-size: 2.5em;
+}
+
+#logo {
+  padding: 10px;
+  color: #4e4e4e;
+}
+
+.branco {
+  color: white;
+}
+
+/*
+****** MENU ****** 
+*/
+
+#menu {
+  padding: 10px;
+}
+
+#menu a {
+  text-decoration: none;
+}
+
+#menu a:link,
+#menu a:visited {
+  color: white;
+  padding: 8px 12px;
+}
+
+#menu a:hover {
+  color: #f7b600;
+  background: #fff;
+}
+
+/*
+****** CONTEUDO ******
+*/
+
+#conteudo {
+  width: 920px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+/*
+****** postagens ******
+*/
+
+#postagens {
+  width: 660px;
+  float: left;
+}
+
+.postagem {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background: #ccc;
+}
+
+.postagem h2 {
+  color: #f7b600;
+}
+
+.postagem a:link,
+.postagem a:visited {
+  text-decoration: none;
+  color: #f7b600;
+}
+
+.postagem a:hover {
+  text-decoration: underline;
+}
+
+.data-postagem {
+  display: block;
+  font-size: 0.8em;
+  border-bottom: 1px solid #f4f4f4;
+  padding: 10px;
+  margin: 10px;
+}
+/*
+****** Lateral ******
+*/
+
+#lateral {
+  width: 240px;
+  float: right;
+}
+
+.conteudo-lateral {
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.texto-lateral {
+  border-bottom: 1px solid #4e4e4e;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.links-lateral {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.links-lateral h3 {
+  color: #565656;
+  background: #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.links-lateral a:link,
+.links-lateral a:visited {
+  text-decoration: none;
+  color: #f7b600;
+}
+
+.links-lateral a:hover {
+  text-decoration: underline;
+}
+
+.conteudo-lateral h3 {
+  color: #565656;
+  background: #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.conteudo-lateral p {
+  font-size: 0.8em;
+}
+
+.conteudo-lateral a:link,
+.conteudo-lateral a:visited {
+  text-decoration: none;
+  color: #f7b600;
+}
+
+.conteudo-lateral a:hover {
+  text-decoration: underline;
+}
+/* 
+****** Rodapé ******
+*/
+
+#rodape {
+  text-align: center;
+  clear: both;
+  background: #ccc;
+}
